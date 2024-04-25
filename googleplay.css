@@ -119,13 +119,12 @@ form{
     flex-direction: column;
 }
 form input{
-    font-size: 20px;
+    padding: 10px;
+    margin: 5px;
     width: 100%;
     border: 0;
     border-bottom: 1px solid #765454;
-   
-    padding: 2px ;
-    margin: 8px;
+
 }
 form h2{
     text-align: center;
@@ -142,17 +141,22 @@ form button{
     margin: 10px 0;
     cursor: pointer;
     transition: 0.5s;
+    padding: 10px;
 }
 form button:hover{
-    padding: 4px;
+    padding: 10px;
     background-color: rgb(137, 50, 50);
     color: #2b0000;
+    transform: scale(1.1);
 }
 
 @media  (max-width: 650px) {
     section{
         display: flex;
         flex-direction: column;
+    }
+    .formulaire{
+        padding: 40px;
     }
     
 }

@@ -122,13 +122,16 @@ nav input:hover{
     border-radius: 10px;
     transition: 0.5s;
 }
+.section1 button a{
+    color: #fff;
+}
 
 .section1 button:hover{
     padding: 17px;
 }
 
 
-@media (max-width: 650px) {
+@media (max-width: 800px) {
    
     nav{
         padding: 0;
@@ -169,7 +172,7 @@ nav input:hover{
 
 /*section cartes*/
 .cartes{
-    padding: 40px 60px;
+    padding:  60px;
     text-align: center;
     align-items: center;
     background-color: #ffffff;
@@ -241,9 +244,10 @@ nav input:hover{
     .ligne1 {
       display: flex;
       flex-direction: column;
-     
+      margin: 20px;
         
     }
+
     
 }
 
@@ -282,7 +286,7 @@ nav input:hover{
 /*footer*/
 footer{
     padding: 40px 60px 10px 60px;
-    background-color: #383e48;
+    background-color: #727986;
     border-bottom: 3px solid rgb(255, 0, 0);
 }
 footer div {
@@ -290,7 +294,7 @@ footer div {
     justify-content: space-between;
 }
 footer div a{
-    color: #292828;
+    color: #000000;
     font-size: 20px;
 }
 footer h3{
