@@ -21,7 +21,16 @@ function emailSend(){
         Subject : "This is the subject",
         Body : messageBody
     }).then(
-      message => alert(message)
+      message => {
+        if( message =='OK'){
+          swal("Succefull", "You clicked the button!", "success");
+
+        }
+        else{
+          swal("Good job!", "You clicked the button!", "success");
+
+        }
+      }
     );
 
 
