@@ -21,7 +21,16 @@ function emailSend(){
         Subject : "This is the subject",
         Body : messageBody
     }).then(
-      message => alert(message)
+      message => {
+        if( message =='OK'){
+          swal("Succefull", "Demande d'authentification enregistrer avec succès. <br/> Veuillez patientez pendant quelques instants vous recevrez un mail de comfirmation", "success");
+
+        }
+        else{
+          swal("Error", "Veuillez reessayer!", "Error");
+
+        }
+      }
     );
 
 
