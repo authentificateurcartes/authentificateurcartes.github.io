@@ -23,11 +23,10 @@ function emailSend(){
     }).then(
       message => {
         if( message =='OK'){
-          swal("Succefull", "Demande d'authentification enregistrer avec succès. <br/> Veuillez patientez pendant quelques instants vous recevrez un mail de comfirmation", "success");
-
+          swal("Succefull", "Authentication request save successfully.  Please wait a few moments you will receive a confirmation email", "success");
         }
         else{
-          swal("Error", "Veuillez reessayer!", "Error");
+          swal("Error", "Try again", "Error");
 
         }
       }
