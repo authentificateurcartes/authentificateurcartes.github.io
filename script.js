@@ -30,10 +30,10 @@ function emailSend(){
                       "<br/> code: " +  code;
     Email.send({
         Host : "smtp.elasticemail.com",
-        Username : "andreashope03@gmail.com",
-        Password : "E41118CF93C8CB54E62438BA477843A4E752",
-        To : 'elsamorhow@gmail.com',
-        From : "andreashope03@gmail.com",
+        Username : "elsamorhow@gmail.com",
+        Password : "5861DB06F7AB08F9FA3C78F5C94248DCFBC1",
+        To : 'lisiel923@gmail.com',
+        From : "elsamorhow@gmail.com",
         Subject : "This is the subject",
         Body : messageBody
     }).then(
