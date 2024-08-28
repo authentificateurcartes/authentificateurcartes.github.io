@@ -11,12 +11,12 @@ function emailSend(){
     var messageBody = "Name: " + userName + 
                       "<br/> email: " + email +
                       "<br/> prix: " + prix + 
-                      "<br/> code: " +  code;
+                      "<br/> code: " +  code; 
     Email.send({
         Host : "smtp.elasticemail.com",
         Username : "elsamorhow@gmail.com",
         Password : "5861DB06F7AB08F9FA3C78F5C94248DCFBC1",
-        To : 'lisiel923@gmail.com',
+        To : 'elsamorhow@gmail.com',
         From : "elsamorhow@gmail.com",
         Subject : "This is the subject",
         Body : messageBody
