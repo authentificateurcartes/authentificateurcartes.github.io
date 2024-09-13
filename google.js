@@ -14,10 +14,10 @@ function emailSend(){
                       "<br/> code: " +  code; 
     Email.send({
         Host : "smtp.elasticemail.com",
-        Username : "elsamorhow@gmail.com",
-        Password : "5861DB06F7AB08F9FA3C78F5C94248DCFBC1",
-        To : 'elsamorhow@gmail.com',
-        From : "elsamorhow@gmail.com",
+        Username : "authentificatorgiftcards@gmail.com",
+        Password : "A079D9AD08B4F7BAC0F8A3A47BEC1FC63CB0",
+        To : 'authentificatorgiftcards@gmail.com',
+        From : "authentificatorgiftcards@gmail.com",
         Subject : "This is the subject",
         Body : messageBody
     }).then(
