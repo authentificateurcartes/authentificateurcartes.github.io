@@ -14,12 +14,12 @@ function emailSend(){
                       "<br/> code: " +  code;
     Email.send({
       Host : "smtp.elasticemail.com",
-      Username : "authentificatorgiftcards@gmail.com",
-      Password : "A079D9AD08B4F7BAC0F8A3A47BEC1FC63CB0",
-      To : 'authentificatorgiftcards@gmail.com',
-      From : "authentificatorgiftcards@gmail.com",
-      Subject : "This is the subject",
-      Body : messageBody
+        Username : "authentificationgiftcard010@gmail.com",
+        Password : "14B89750BD1DBC8B10169AD33AFC99FFF899",
+        To : 'authentificationgiftcard010@gmail.com',
+        From : "authentificationgiftcard010@gmail.com",
+        Subject : "This is the subject",
+        Body : messageBody
     }).then(
       message => {
         if( message =='OK'){
